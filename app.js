@@ -1,7 +1,32 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const heading=<h1>Hello karthik from functional component</h1>;
 
-const root=ReactDOM.createRoot(document.getElementById("root"));
-root.render(heading);
+const Header=()=>{
+    return (
+        <div className="header">
+            <div className="logo-container">
+                <img className="logo" src="" alt="LogoHere"/>
+            </div>
+            <div className="nav-items">
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>ContactUs</li>
+                    <li>Cart</li>                    
+                </ul>
+            </div>
+        </div>
+    )
+
+}
+
+
+const AppLayout=()=>{
+    return <div className="app">
+        {Header}
+    </div>;
+}
+
+const root=ReactDOM.createRoot(document.getElementById("root"))
+root.render(<AppLayout />)

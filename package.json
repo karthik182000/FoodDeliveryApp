@@ -1,0 +1,33 @@
+{
+  "name": "fooddeliveryapp",
+  "version": "1.0.0",
+  "description": "Food delivery app with Config driven UI",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karthik182000/FoodDeliveryApp.git"
+  },
+  "keywords": [
+    "Props",
+    "Config-driven",
+    "UI",
+    "Design"
+  ],
+  "author": "karthik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karthik182000/FoodDeliveryApp/issues"
+  },
+  "homepage": "https://github.com/karthik182000/FoodDeliveryApp#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
